@@ -23,7 +23,7 @@
 
     - name: Clone the Flask application from Git (if applicable)
       git:
-        repo: 'https://github.com/yourusername/weather-app.git'  # Git 리포지토리 주소
+        repo: 'https://github.com/Jaeki-Lee/infra-deploy.git'  # Git 리포지토리 주소
         dest: "{{ app_dir }}"
         version: master
         force: yes
